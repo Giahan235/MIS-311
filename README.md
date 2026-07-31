@@ -1,19 +1,28 @@
 # MIS-311
 Student Performance Data Analysis using Microsoft Excel.
 1.Data overview
+
 Dataset Description
+
 Dataset: Student Performance Dataset
 Source: Kaggle (Student Performance Dataset)
 Number of rows and columns: [200,8] 
 Background: Student Performance dataset consists of data regarding the academic performance of students. The dataset comprises information on demographic variables, parental level of education, and performance of students in mathematics, reading, and writing.
+
 2. DATA CLEANING
+   
 2.1 Missing Values
 Missing values were identified in the parental_level_of_education column. These missing values were replaced with the most frequent category associate's degree to preserve the dataset and avoid losing observations.
+
 2.2 Duplicate Rows
 Duplicate rows were identified and removed to improve data quality before analysis.
+
 3.DESCRIPTIVE STATISTICS
+
 3.1 Descriptive Statistics
-average of parental scores.png
+
+descriptive statistics.png
+
 Mean values for all three variables are 64.18, 67.61, and 66.33. These values show similar results, meaning that the performance level was quite similar. The maximum value of the mean is 67.61, and the minimum one is 64.18; hence, there is not much difference between these values. Standard deviation values vary from 15.82 to 16.29, which means that the variability level is quite equal among all three variables.
 
 All three variables demonstrate negative skewness -0.36, -0.23, and -0.33. It shows that the distributions are slightly skewed to the left, meaning that some low values affect the mean negatively. However, the first variable has a larger kurtosis 0.93 than the other two -0.15 and 0.06. Hence, its distribution is slightly more peaked than others and has more extreme values. There are 198 observations for each variable; hence, the sample size is the same.
